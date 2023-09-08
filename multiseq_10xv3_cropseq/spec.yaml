@@ -25,9 +25,9 @@ assay_spec:
   regions:
   - !Region
     parent_id: null
-    region_id: R1.fastq.gz
+    region_id: guide_R1.fastq.gz
     region_type: ''
-    name: R1.fastq.gz
+    name: guide_R1.fastq.gz
     sequence_type: ''
     sequence: ''
     min_len: 0
@@ -91,9 +91,9 @@ assay_spec:
       regions: null
   - !Region
     parent_id: null
-    region_id: R2.fastq.gz
+    region_id: guide_R2.fastq.gz
     region_type: ''
-    name: R2.fastq.gz
+    name: guide_R2.fastq.gz
     sequence_type: ''
     sequence: ''
     min_len: 0
@@ -168,9 +168,9 @@ assay_spec:
   regions:
   - !Region
     parent_id: null
-    region_id: R1.fastq.gz
+    region_id: scRNA_R1.fastq.gz
     region_type: ''
-    name: R1.fastq.gz
+    name: scRNA_R1.fastq.gz
     sequence_type: ''
     sequence: ''
     min_len: 0
@@ -234,9 +234,9 @@ assay_spec:
       regions: null
   - !Region
     parent_id: null
-    region_id: R2.fastq.gz
+    region_id: scRNA_R2.fastq.gz
     region_type: ''
-    name: R2.fastq.gz
+    name: scRNA_R2.fastq.gz
     sequence_type: ''
     sequence: ''
     min_len: 0
@@ -300,9 +300,9 @@ assay_spec:
   regions:
   - !Region
     parent_id: null
-    region_id: R1.fastq.gz
+    region_id: multiseq_R1.fastq.gz
     region_type: ''
-    name: R1.fastq.gz
+    name: multiseq_R1.fastq.gz
     sequence_type: ''
     sequence: ''
     min_len: 0
@@ -366,9 +366,9 @@ assay_spec:
       regions: null
   - !Region
     parent_id: null
-    region_id: R2.fastq.gz
+    region_id: multiseq_R2.fastq.gz
     region_type: ''
-    name: R2.fastq.gz
+    name: multiseq_R2.fastq.gz
     sequence_type: ''
     sequence: ''
     min_len: 0
