@@ -5,4 +5,4 @@ Seqspec for CRISPR assays
 
 # Notes
 
-Your subimission should have a 1M FASTQ (R1 and R2) for each modality present in the seqspec
+Subimisisons should have a 1M FASTQ (R1 and R2) for each modality present in the seqspec
