@@ -1,7 +1,9 @@
 # CRISPR-SeqSpec
 Seqspec for CRISPR assays
+
 # Assays
  - Multiseq-cropseq-10v3 (Luca/Daniel Bauer)
+ - TAP-seq (Schraivogel et al., 2020)
 
 # Notes
 
