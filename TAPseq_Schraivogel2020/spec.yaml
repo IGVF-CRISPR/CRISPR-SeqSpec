@@ -1,0 +1,173 @@
+!Assay
+assay: TAP-seq (CROP-seq vector)
+sequencer: Illumina
+seqspec_version: 0.0.3
+name: TAPseq_Schraivogel2020
+doi: https://doi.org/10.1038/s41592-020-0837-5
+publication_date: 01 June 2020
+description: TAP-seq enhancer screens from Schraivogel et al., 2020 using the CROP-seq vector for guide delivery
+modalities:
+- rna
+- crispr
+lib_struct: https://doi.org/10.21203/rs.3.pex-864/v1
+assay_spec:
+- !Region
+  parent_id: null
+  region_id: rna
+  region_type: ''
+  name: rna
+  sequence_type: ''
+  sequence: ''
+  min_len: 0
+  max_len: 1024
+  onlist: null
+  regions:
+  - !Region
+    parent_id: null
+    region_id: R1.fastq.gz
+    region_type: ''
+    name: R1.fastq.gz
+    sequence_type: ''
+    sequence: ''
+    min_len: 0
+    max_len: 1024
+    onlist: null
+    regions:
+    - !Region
+      parent_id: null
+      region_id: barcode
+      region_type: ''
+      name: barcode
+      sequence_type: onlist
+      sequence: NNNNNNNNNNNNNNNN
+      min_len: 16
+      max_len: 16
+      onlist: !Onlist
+        filename: 10x_bc_whitelist_737k_201608.txt.gz
+        md5: null
+      regions: null
+    - !Region
+      parent_id: null
+      region_id: umi
+      region_type: ''
+      name: umi
+      sequence_type: random
+      sequence: NNNNNNNNNN
+      min_len: 10
+      max_len: 10
+      onlist: null
+      regions: null
+  - !Region
+    parent_id: null
+    region_id: R2.fastq.gz
+    region_type: ''
+    name: R2.fastq.gz
+    sequence_type: ''
+    sequence: ''
+    min_len: 0
+    max_len: 1024
+    onlist: null
+    regions:
+    - !Region
+      parent_id: null
+      region_id: cdna
+      region_type: ''
+      name: cdna
+      sequence_type: random
+      sequence: ''
+      min_len: 58
+      max_len: 58
+      onlist: null
+      regions: null
+- !Region
+  parent_id: null
+  region_id: crispr
+  region_type: ''
+  name: crispr
+  sequence_type: ''
+  sequence: ''
+  min_len: 0
+  max_len: 1024
+  onlist: null
+  regions:
+  - !Region
+    parent_id: null
+    region_id: R1.fastq.gz
+    region_type: ''
+    name: R1.fastq.gz
+    sequence_type: ''
+    sequence: ''
+    min_len: 0
+    max_len: 1024
+    onlist: null
+    regions:
+    - !Region
+      parent_id: null
+      region_id: barcode
+      region_type: ''
+      name: barcode
+      sequence_type: onlist
+      sequence: NNNNNNNNNNNNNNNN
+      min_len: 16
+      max_len: 16
+      onlist: !Onlist
+        filename: 10x_bc_whitelist_737k_201608.txt.gz
+        md5: null
+      regions: null
+    - !Region
+      parent_id: null
+      region_id: umi
+      region_type: ''
+      name: umi
+      sequence_type: random
+      sequence: NNNNNNNNNN
+      min_len: 10
+      max_len: 10
+      onlist: null
+      regions: null
+  - !Region
+    parent_id: null
+    region_id: R2.fastq.gz
+    region_type: ''
+    name: R2.fastq.gz
+    sequence_type: ''
+    sequence: ''
+    min_len: 0
+    max_len: 1024
+    onlist: null
+    regions:
+    - !Region
+      parent_id: null
+      region_id: cdna
+      region_type: ''
+      name: cdna
+      sequence_type: random
+      sequence: ''
+      min_len: 18
+      max_len: 18
+      onlist: null
+      regions: null
+    - !Region
+      parent_id: null
+      region_id: sgrna
+      region_type: ''
+      name: sgrna
+      sequence_type: onlist
+      sequence: NNNNNNNNNNNNNNNNNNNN
+      min_len: 20
+      max_len: 20
+      onlist: !Onlist
+        filename: guides_schraivogel2020.txt.gz
+        md5: null
+      regions: null
+    - !Region
+      parent_id: null
+      region_id: tapseq_primer
+      region_type: ''
+      name: tapseq_primer
+      sequence_type: fixed
+      sequence: TGTGGAAAGGACGAAACACC
+      min_len: 20
+      max_len: 20
+      onlist: null
+      regions: null
