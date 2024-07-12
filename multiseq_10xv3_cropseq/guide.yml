@@ -82,7 +82,7 @@ library_spec:
     region_id: cdna
     region_type: cdna
     name: cdna
-    sequence_type: fixed
+    sequence_type: random
     sequence: NNNNNNNNNNNNNNNNNNNN
     min_len: 20
     max_len: 20

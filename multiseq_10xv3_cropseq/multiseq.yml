@@ -82,10 +82,10 @@ library_spec:
     region_id: cdna
     region_type: cdna
     name: cdna
-    sequence_type: fixed 
-    sequence: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-    min_len: 90 
-    max_len: 90
+    sequence_type: random 
+    sequence: NNNNNNNN
+    min_len: 8 
+    max_len: 8
     onlist: null
     regions: null
   - !Region
