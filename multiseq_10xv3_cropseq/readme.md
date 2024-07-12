@@ -49,4 +49,7 @@
         onlist: null
         regions: null
   ```
-
+The outputs can be evaluate using the seqspec nextflow command:
+```
+add the commands to execute the nextflow module to inspect the ouput when generating the seqSpec
+```
