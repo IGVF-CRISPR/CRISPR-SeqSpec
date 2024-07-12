@@ -63,8 +63,8 @@ library_spec:
     max_len: 16
     onlist: !Onlist 
       location: remote
-      filename: 3M-february-2018.txt.gz
-      md5: 417292fed237e038f4d7e20b0ddac53e
+      filename: 3M-february-2018.txt
+      md5: updateit!
     regions: null
   - !Region
     parent_id: rna
