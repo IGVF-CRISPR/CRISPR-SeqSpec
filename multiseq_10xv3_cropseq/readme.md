@@ -1,6 +1,7 @@
 # Guide Lines
 
 - Split your SeqSpec in the different modalities using different files. All the files should be in the same directory.  
+- Add your whitelist to the SeqSpec directory without .gz (as a .txt file). 
 - Use cdna region to describe the variable region that you want to capture
     Examples
     

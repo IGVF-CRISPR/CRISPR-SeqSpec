@@ -37,8 +37,8 @@ library_spec:
   name: null
   sequence_type: null
   sequence: AAAAAAAAAAAAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNXAAAAAAAAAAAAAAAA
-  min_len: 61
-  max_len: 360
+  min_len: 150
+  max_len: 150
   onlist: null
   regions:
   - !Region

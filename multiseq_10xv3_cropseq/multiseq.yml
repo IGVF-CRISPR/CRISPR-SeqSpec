@@ -37,8 +37,8 @@ library_spec:
   name: null
   sequence_type: null 
   sequence: AAAAAAAAAAAAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNNNXAAAAAAAAAAAAAAAA 
-  min_len: 61 
-  max_len: 360
+  min_len: 150 
+  max_len: 150
   onlist: null
   regions:
   - !Region 
@@ -85,28 +85,6 @@ library_spec:
     sequence_type: random 
     sequence: NNNNNNNN
     min_len: 8 
-    max_len: 8
-    onlist: null
-    regions: null
-  - !Region
-    parent_id: multiseq
-    region_id: multi_barcode
-    region_type: multi_barcode
-    name: multi_barcode
-    sequence_type: fixed
-    sequence: NNNNNNNN
-    min_len: 8
-    max_len: 8
-    onlist: null
-    regions: null
-  - !Region
-    parent_id: multiseq
-    region_id: sample_barcode
-    region_type: samples_barcode
-    name: sample_barcode
-    sequence_type: fixed
-    sequence: NNNNNNNN
-    min_len: 8
     max_len: 8
     onlist: null
     regions: null
